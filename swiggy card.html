@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .maindiv {
+        border: 1px solid black;
+        width: 300px;
+        height: 330px;
+        cursor: pointer;
+        position: relative;
+      }
+      .imagediv {
+        /* border: 1px solid black; */
+        width: 260px;
+        height: 180px;
+        margin: 10px;
+        margin-left: 17px;
+        position: relative;
+      }
+
+      .dishname {
+        /* border: 1px solid black; */
+        width: 260px;
+        height: 25px;
+        margin-left: 17px;
+        font-family: ProximaNova, arial, Helvetica Neue, sans-serif;
+        font-weight: 500;
+        position: absolute;
+        bottom: 135px;
+        color: #fff;
+      }
+      .cuisine {
+        /* border: 1px solid black; */
+        width: 260px;
+        height: 25px;
+        margin-left: 17px;
+        font-family: ProximaNova, arial, Helvetica Neue, sans-serif;
+        color: #686b78;
+        font-size: 13px;
+      }
+      .parentdiv {
+        /* border: 1px solid black; */
+        width: 260px;
+        height: 30px;
+        margin-left: 17px;
+        display: flex;
+        justify-content: space-between;
+      }
+      .rating {
+        /* border: 1px solid black; */
+        width: 70px;
+        height: 20px;
+        margin-top: 3px;
+      }
+      .time {
+        /* border: 1px solid black; */
+        width: 70px;
+        height: 20px;
+        margin-top: 3px;
+        display: flex;
+        align-items: center;
+        color: #d1d4e2;
+        font-size: 14px;
+        position: absolute;
+        bottom: 138px;
+        right: 10px;
+      }
+      .offer {
+        /* border: 1px solid black; */
+        width: 100px;
+        height: 20px;
+        margin-top: 3px;
+        color: #535665;
+        font-size: 14px;
+        display: flex;
+        align-items: center;
+      }
+      .parent {
+        /* border: 1px solid black; */
+        width: 260px;
+        height: 30px;
+        margin-left: 17px;
+        display: flex;
+        justify-content: space-between;
+      }
+      .percent {
+        /* border: 1px solid black; */
+        width: 20px;
+        height: 20px;
+        margin-top: 3px;
+        color: #8a584b;
+      }
+      .flat {
+        /* border: 1px solid black; */
+        width: 245px;
+        height: 20px;
+        margin-top: 3px;
+        font-weight: 400;
+        color: #8a584b;
+      }
+      .rating {
+        background-color: #48c479;
+        color: #fff;
+      }
+    </style>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+  </head>
+  <body>
+    <div class="maindiv">
+      <div class="imagediv">
+        <img
+          src="https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_508,h_320,c_fill/uubzuxzz2nps1zylts6f"
+          height="180px"
+          width="260px"
+          alt=""
+        />
+      </div>
+      <div class="dishname">
+        <span>Punjabi Angithi</span>
+      </div>
+      <div class="cuisine">
+        <span>North Indian, Chinese, Tandoor</span>
+      </div>
+      <div class="parentdiv">
+        <div class="rating">
+          <i class="fa fa-star" aria-hidden="true"> 4.1</i>
+        </div>
+        <div class="time">25 MINS</div>
+        <div class="offer">₹300 FOR TWO</div>
+      </div>
+      <div class="parent">
+        <div class="percent">
+          <i class="fa fa-percent" aria-hidden="true"></i>
+        </div>
+        <div class="flat">FLAT150 off | Use FLATDEAL</div>
+      </div>
+      <div class="quick"></div>
+    </div>
+  </body>
+</html>
